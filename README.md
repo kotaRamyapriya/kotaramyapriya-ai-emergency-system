@@ -100,6 +100,7 @@ Create a mobile-friendly UI for better accessibility
 
 Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
+
 Guidelines:
 
 Fork the repository
@@ -107,3 +108,23 @@ Fork the repository
 Make your changes in a feature branch
 
 Submit a PR with a clear description of your changes
+
+License
+MIT © 2025 Kota Ramyapriya
+
+yaml
+Copy code
+
+---
+
+This version:  
+- Fixes all broken code blocks  
+- Properly formats commands, file paths, and ports  
+- Organizes content clearly with sections, bullet points, and code blocks  
+- Ready for **GitHub, recruiters, or collaborators**  
+
+---
+
+If you want, I can **add a small screenshot/GIF section at the top** showing the system in action — it makes your README visually engaging and more professional.  
+
+Do you want me to add that?

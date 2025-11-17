@@ -1,167 +1,63 @@
-# 🚨 AI Emergency Response & Safety Alert System  
-### Team: **RamyapriyaAIHack**
+# AI Emergency Response & Safety Alert System  
+_A smart system that analyzes text + audio to detect emergencies (fire, accident, medical, SOS)_
 
-An intelligent cloud-powered system that detects possible emergencies from **text or audio**, classifies the incident using AI, and returns an appropriate safety alert.  
-Built for **GHCI 2025 Hackathon – Round 2 Submission**.
+## Motivation  
+In critical situations … (why this exists) …
 
----
+## Features  
+- Real‑time audio capture and transcription  
+- Keyword/phrase classification (fire, accident, medical, SOS)  
+- Web UI + API backend  
+- Containerised with Docker for easy deployment  
 
-# 🌟 Features
+## Tech Stack  
+- Backend: FastAPI (Python)  
+- Frontend: Vanilla HTML/CSS/JavaScript  
+- Speech Recognition: Web Speech API or SpeechRecognition Python library  
+- Containerisation: Docker, Docker Compose  
 
-✔ Detects **Fire / Accident / Medical / SOS**  
-✔ Text-based incident classification  
-✔ Voice → Text transcription  
-✔ AI-powered incident classifier  
-✔ Real-time results in the UI  
-✔ Dockerized backend + frontend  
-✔ FastAPI REST API  
-✔ Lightweight prototype  
+## Architecture  
+_(Insert diagram or describe flow)_  
+Frontend ↔ Backend API ↔ Model/Classifier → Alert  
 
----
-
-# 🏗 System Architecture
-
-User (Web App)
-↓
-Frontend (HTML + JavaScript)
-↓
-FastAPI Backend
-↓
-AI Incident Classifier
-(OpenAI / Azure Cognitive Services)
-↓
-Emergency Detection Output
-
-yaml
-Copy code
-
----
-
-# 🔧 Tech Stack
-
-### 🖥 Frontend
-- HTML  
-- CSS  
-- JavaScript (Vanilla JS)  
-- Web Audio API  
-
-### 🧪 Backend
-- FastAPI  
-- Python 3.10  
-- SpeechRecognition  
-- OpenAI or Azure Cognitive Services (configurable)
-
-### 🐳 DevOps
-- Docker  
-- Docker Compose  
-
----
-
-# 📁 Project Structure
-
-ai-emergency-system/
-│
-├── backend
-│ ├── main.py
-│ ├── ai_router.py
-│ ├── incident_classifier.py
-│ ├── requirements.txt
-│ ├── Dockerfile
-│ └── utils
-│ └── audio_transcriber.py
-│
-├── frontend
-│ ├── index.html
-│ ├── app.js
-│ ├── style.css
-│
-├── docker-compose.yml
-└── README.md
-
-yaml
-Copy code
-
----
-
-# ▶️ How to Run the Application
-
-### **1️⃣ Clone the Repository**
-```bash
-git clone https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system
-cd kotaramyapriya-ai-emergency-system
-2️⃣ Run with Docker Compose
-bash
-Copy code
-docker-compose up --build
-3️⃣ Access the App
-Service	URL
-Backend API	http://localhost:8000
-Frontend UI	http://localhost:8080
-
-🤖 API Endpoints
-POST /classify
-Send text → get emergency type.
-
-Sample Request
-
-
-json
-Copy code
-{
-  "text": "There is smoke and fire inside the room!"
-}
-POST /transcribe
-Send audio → returns transcription text.
-
-Sample Response
-
-json
-Copy code
-{
-  "transcription": "Please help! Someone fainted!"
-}
-🔥 AI Components
-1️⃣ Incident Classifier
-Analyzes user text
-
-Detects: Fire, Accident, Medical, SOS, Non-emergency
-
-Uses OpenAI or Azure AI
-
-2️⃣ Audio Transcriber
-Converts recorded audio → text
-
-Passes text to classifier
-
-🔐 Security Measures
-API key protection
-
-CORS handling
-
-No user data stored
-
-Optional HTTPS
-
-📈 Future Enhancements
-GPS location extraction
-
-Auto alert to emergency contacts
-
-Mobile app version
-
-Multi-language detection
-
-
-
-Start the Application
+## Installation  
+### Prerequisites  
+- Docker (v20.x)  
+- Docker Compose (v2.x)  
+### Run  
 docker-compose up --build
 
-Access the App
+markdown
+Copy code
+- Backend: http://localhost:8000  
+- Frontend: http://localhost:8080  
 
-Backend API: http://localhost:8000
+## Usage  
+1. In web browser click “Start Listening”  
+2. Speak a phrase: “fire fire”, “help accident”, “medical emergency”  
+3. The system classifies and … (show expected result)  
 
-Frontend UI: http://localhost:8080
-### **2️⃣ Start services using Docker Compose**
-```bash
-docker-compose up --build
+## Folder Structure  
+/backend — FastAPI app code
+/frontend — static HTML/JS/CSS
+docker-compose.yml
+README.md
+LICENSE
 
+markdown
+Copy code
+
+## Model / Data  
+Describe how classification works, model used (if any).  
+
+## Future Enhancements  
+- Add multi‑language support  
+- Integrate SMS or WhatsApp alerts  
+- Train a deep learning model for better accuracy  
+- Mobile‑friendly UI  
+
+## Contributing  
+Contributions welcome! Please open an issue or pull request.  
+
+## License  
+MIT © 2025 Kota Ramyapriya  

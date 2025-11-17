@@ -43,7 +43,6 @@ This system detects emergencies via audio or text input, classifies the type of 
 ## Architecture  
 User (Browser) → Frontend UI → Backend API → Classifier → Alert/Response
 
-
 - The frontend captures audio or text input from the user.  
 - The backend receives input and passes it to a simple classifier (keyword-based or ML model).  
 - The system returns the classified emergency type and triggers the appropriate alert/log.
@@ -57,45 +56,43 @@ User (Browser) → Frontend UI → Backend API → Classifier → Alert/Response
 - Docker Compose (v2.x or above)  
 
 ### Run the system  
+```bash
 # Clone the repository
 git clone https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system.git
 cd kotaramyapriya-ai-emergency-system
 
 # Build and start the containers
 docker-compose up --build
-
 Access the system:
+
 Backend: http://localhost:8000
+
 Frontend: http://localhost:8080
-
-
 
 Usage:
 
-1)Open the frontend in a browser (http://localhost:8080)
-2)Click Start Listening (for audio input) or type a text message
-3)Speak or type phrases like "fire fire", "help accident", "medical emergency"
-4)The system shows the detected emergency type in the UI
-5)Alerts are logged in the backend console
+Open the frontend in a browser (http://localhost:8080)
 
+Click Start Listening (for audio input) or type a text message
+
+Speak or type phrases like "fire fire", "help accident", "medical emergency"
+
+The system shows the detected emergency type in the UI
+
+Alerts are logged in the backend console
 
 Folder Structure
-
+text
+Copy code
 /backend    — FastAPI backend application
 /frontend   — Static HTML, CSS, and JavaScript files
 docker-compose.yml
 README.md
 LICENSE
 assets/     — Screenshots or GIFs (demo.gif)
-
-Model / Data → ### Model / Data
-Contributing → ### Contributing
-License → ### License
-
+Model / Data
 The classification system currently uses keyword matching to detect the type of emergency.
-
 Future versions may integrate machine learning models for more accurate audio/text classification.
-
 No external datasets are required for the current implementation.
 
 Contributing
@@ -112,4 +109,3 @@ Submit a PR with a clear description of your changes
 License
 This project is licensed under the MIT License.
 MIT © 2025 Kota Ramyapriya
-

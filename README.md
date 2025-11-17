@@ -65,11 +65,10 @@ cd kotaramyapriya-ai-emergency-system
 
 # Build and start the containers
 docker-compose up --build
-Access the system:
+**Access the system:**  
+- Backend: `http://localhost:8000`  
+- Frontend: `http://localhost:8080`
 
-Backend: http://localhost:8000
-
-Frontend: http://localhost:8080
 
 Usage
 Open the frontend in a browser (http://localhost:8080).

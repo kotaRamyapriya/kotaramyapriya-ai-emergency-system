@@ -101,3 +101,8 @@ Once your GIF is added in `assets/demo.gif`, this README will be fully polished 
 Optional: Add GitHub badges (e.g., build status, Python version, license) to make it even more professional.
 
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/kotaRamyapriya/kotaramyapriya-ai-emergency-system?style=social)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/kotaRamyapriya/kotaramyapriya-ai-emergency-system)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/issues)
+[![GitHub forks](https://img.shields.io/github/forks/kotaRamyapriya/kotaramyapriya-ai-emergency-system?style=social)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/network)
+[![GitHub watchers](https://img.shields.io/github/watchers/kotaRamyapriya/kotaramyapriya-ai-emergency-system?style=social)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/watchers)

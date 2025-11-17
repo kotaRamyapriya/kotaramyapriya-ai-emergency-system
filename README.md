@@ -57,13 +57,13 @@ User (Browser) → Frontend UI → Backend API → Classifier → Alert/Response
 - Docker Compose (v2.x or above)  
 
 ### Run the system  
-```bash
 # Clone the repository
 git clone https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system.git
 cd kotaramyapriya-ai-emergency-system
 
 # Build and start the containers
 docker-compose up --build
+
 **Access the system:**  
 - Backend: `http://localhost:8000`  
 - Frontend: `http://localhost:8080`

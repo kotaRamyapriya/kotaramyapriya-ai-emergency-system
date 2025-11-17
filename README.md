@@ -151,3 +151,5 @@ Mobile app version
 Multi-language detection
 
 Realtime alert dashboard
+docker-compose up --build
+

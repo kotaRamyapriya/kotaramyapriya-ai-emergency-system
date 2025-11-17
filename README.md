@@ -87,7 +87,11 @@ docker-compose.yml
 README.md
 LICENSE
 assets/     — Screenshots or GIFs (demo.gif)
-Model / Data
+
+Model / Data → ### Model / Data
+Contributing → ### Contributing
+License → ### License
+
 The classification system currently uses keyword matching to detect the type of emergency.
 
 Future versions may integrate machine learning models for more accurate audio/text classification.

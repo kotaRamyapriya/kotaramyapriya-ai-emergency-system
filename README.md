@@ -64,31 +64,23 @@ cd kotaramyapriya-ai-emergency-system
 # Build and start the containers
 docker-compose up --build
 
-**Access the system:**  
-- Backend: `http://localhost:8000`  
-- Frontend: `http://localhost:8080`
+Access the system:
+Backend: http://localhost:8000
+Frontend: http://localhost:8080
 
 
-Usage
-Open the frontend in a browser (http://localhost:8080).
 
-Click Start Listening (for audio input) or type a text message.
+Usage:
 
-Speak or type a phrase such as:
+1)Open the frontend in a browser (http://localhost:8080)
+2)Click Start Listening (for audio input) or type a text message
+3)Speak or type phrases like "fire fire", "help accident", "medical emergency"
+4)The system shows the detected emergency type in the UI
+5)Alerts are logged in the backend console
 
-"fire fire"
-
-"help accident"
-
-"medical emergency"
-
-The system classifies the input and displays the detected emergency type in the UI.
-
-Alerts are logged in the backend console.
 
 Folder Structure
-text
-Copy code
+
 /backend    — FastAPI backend application
 /frontend   — Static HTML, CSS, and JavaScript files
 docker-compose.yml

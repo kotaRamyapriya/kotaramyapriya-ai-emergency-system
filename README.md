@@ -13,3 +13,8 @@ A smart system that analyzes **text + audio** to detect possible emergencies lik
 - Docker + Docker Compose
 
 ## How to Run
+docker-compose up --build
+
+
+Backend → http://localhost:8000  
+Frontend → http://localhost:8080  

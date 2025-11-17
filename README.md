@@ -104,6 +104,7 @@ Send text → get emergency type.
 
 Sample Request
 
+
 json
 Copy code
 {

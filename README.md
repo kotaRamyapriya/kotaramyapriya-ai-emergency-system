@@ -1,20 +1,20 @@
-# AI Emergency Response & Safety Alert System
+# 🚨 AI Emergency Response & Safety Alert System
 
-A smart system that analyzes **text + audio** to detect possible emergencies like:
-- Fire
-- Accidents
-- Medical issues
-- General SOS calls
+An intelligent system that detects possible emergencies from **text or audio**, classifies the incident, and triggers an appropriate safety alert.  
+Built for **GHCI 2025 Hackathon – Team: RamyapriyaAIHack**.
 
-## Tech Stack
-- FastAPI (Backend)
-- Vanilla JS + HTML + CSS (Frontend)
-- SpeechRecognition API
-- Docker + Docker Compose
+---
 
-## How to Run
-docker-compose up --build
+## 🧠 What the System Does
 
+✔ Detects emergency type using AI (Fire, Accident, Medical, SOS)  
+✔ Accepts both **text** and **voice message**  
+✔ Converts audio → text using speech recognition  
+✔ Classifies incident using AI model  
+✔ Shows results instantly on the frontend  
+✔ Fully containerized using Docker & Docker Compose  
 
-Backend → http://localhost:8000  
-Frontend → http://localhost:8080  
+---
+
+## 🏗 Architecture Overview
+

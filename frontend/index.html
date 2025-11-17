@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Emergency Response System</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>AI Emergency Response System</h1>
+
+    <h2>Text Emergency Input</h2>
+    <textarea id="textInput" placeholder="Describe the emergency..."></textarea>
+    <button onclick="analyzeText()">Analyze Text</button>
+
+    <h2>Upload Audio</h2>
+    <input type="file" id="audioFile" accept="audio/*" />
+    <button onclick="analyzeAudio()">Analyze Audio</button>
+
+    <pre id="result"></pre>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -12,8 +12,7 @@ _A smart system that analyzes text and audio to detect emergencies (fire, accide
 ---
 
 ## Demo
-![AI Emergency System Demo](assets/demo.gif)  
-*Replace `assets/demo.gif` with your actual GIF showing the frontend UI and system alerts.*
+*Add screenshots or GIF of the frontend UI and system alerts here.*
 
 ---
 
@@ -69,8 +68,7 @@ Backend: http://localhost:8000
 
 Frontend: http://localhost:8080
 
-Usage:
-
+Usage
 Open the frontend in a browser (http://localhost:8080)
 
 Click Start Listening (for audio input) or type a text message
@@ -82,18 +80,28 @@ The system shows the detected emergency type in the UI
 Alerts are logged in the backend console
 
 Folder Structure
-text
+bash
 Copy code
 /backend    — FastAPI backend application
 /frontend   — Static HTML, CSS, and JavaScript files
 docker-compose.yml
 README.md
 LICENSE
-assets/     — Screenshots or GIFs (demo.gif)
 Model / Data
 The classification system currently uses keyword matching to detect the type of emergency.
+
 Future versions may integrate machine learning models for more accurate audio/text classification.
+
 No external datasets are required for the current implementation.
+
+Assessment / Testing
+Test audio input by speaking emergency phrases and verifying UI classification.
+
+Test text input by typing emergency phrases and checking backend logs.
+
+Ensure Docker containers run without errors (docker ps to check running containers).
+
+For CI/CD, consider adding automated unit tests for the backend API in the future.
 
 Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
@@ -109,4 +117,3 @@ Submit a PR with a clear description of your changes
 License
 This project is licensed under the MIT License.
 MIT © 2025 Kota Ramyapriya
-

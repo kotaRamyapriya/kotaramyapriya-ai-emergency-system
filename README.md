@@ -150,6 +150,13 @@ Mobile app version
 
 Multi-language detection
 
-Realtime alert dashboard
+
+
+Start the Application
 docker-compose up --build
 
+Access the App
+
+Backend API: http://localhost:8000
+
+Frontend UI: http://localhost:8080

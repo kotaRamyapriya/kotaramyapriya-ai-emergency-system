@@ -43,8 +43,7 @@ This system detects emergencies via audio or text input, classifies the type of 
 ## Architecture  
 User (Browser) → Frontend UI → Backend API → Classifier → Alert/Response
 
-yaml
-Copy code
+
 - The frontend captures audio or text input from the user.  
 - The backend receives input and passes it to a simple classifier (keyword-based or ML model).  
 - The system returns the classified emergency type and triggers the appropriate alert/log.

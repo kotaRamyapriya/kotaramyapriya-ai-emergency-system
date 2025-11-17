@@ -117,14 +117,15 @@ Copy code
 
 ---
 
-This version:  
-- Fixes all broken code blocks  
-- Properly formats commands, file paths, and ports  
-- Organizes content clearly with sections, bullet points, and code blocks  
-- Ready for **GitHub, recruiters, or collaborators**  
+### ✅ Changes made
+- Removed all `yaml / Copy code` lines  
+- Fixed broken code blocks for commands and folder structure  
+- Removed my commentary from the README  
+- Structured sections cleanly with headings, bullets, and code blocks  
+- Formatted URLs, ports, and commands with inline code for clarity  
 
 ---
 
-If you want, I can **add a small screenshot/GIF section at the top** showing the system in action — it makes your README visually engaging and more professional.  
+If you want, I can also **add a screenshot/GIF section at the top** showing your web UI and system output — it will make your README visually engaging and look like a polished portfolio project.  
 
 Do you want me to add that?

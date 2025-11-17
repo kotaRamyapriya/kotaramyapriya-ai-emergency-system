@@ -87,13 +87,17 @@ Folder Structure
 docker-compose.yml
 README.md
 LICENSE
-assets/     — Screenshots or GIFs (demo.gif)
+---
 
-Model / Data
+### ✅ Summary of this README
+- Includes a Demo/GIF section at the top for visual appeal  
+- Clean, professional formatting throughout  
+- Contributing section appears before License  
+- License clearly stated at the end  
+- Proper code blocks, inline code, and folder structure  
 
-The classification system currently uses keyword matching to detect the type of emergency.
+Once your GIF is added in `assets/demo.gif`, this README will be fully polished and recruiter-ready.  
 
-Future versions may integrate machine learning models for more accurate audio/text classification.
+Optional: Add GitHub badges (e.g., build status, Python version, license) to make it even more professional.
 
-No external datasets are required for the current implementation.
 

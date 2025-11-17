@@ -160,3 +160,7 @@ Access the App
 Backend API: http://localhost:8000
 
 Frontend UI: http://localhost:8080
+### **2️⃣ Start services using Docker Compose**
+```bash
+docker-compose up --build
+

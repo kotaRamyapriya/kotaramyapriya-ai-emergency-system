@@ -110,5 +110,3 @@ License
 This project is licensed under the MIT License.
 MIT © 2025 Kota Ramyapriya
 
-pgsql
-Copy code

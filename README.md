@@ -1,7 +1,11 @@
 # AI Emergency Response & Safety Alert System  
 _A smart system that analyzes text and audio to detect emergencies (fire, accident, medical, SOS)_
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/kotaRamyapriya/kotaramyapriya-ai-emergency-system?style=social)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/kotaRamyapriya/kotaramyapriya-ai-emergency-system)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/issues)
+[![GitHub forks](https://img.shields.io/github/forks/kotaRamyapriya/kotaramyapriya-ai-emergency-system?style=social)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/network)
+[![GitHub watchers](https://img.shields.io/github/watchers/kotaRamyapriya/kotaramyapriya-ai-emergency-system?style=social)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/watchers)
 
 ---
 
@@ -35,6 +39,8 @@ This system detects emergencies via audio or text input, classifies the type of 
 ---
 
 ## Architecture  
+
+
 User (Browser) → Frontend UI → Backend API → Classifier → Alert/Response
 
 - The frontend captures audio or text input from the user.  
@@ -58,6 +64,8 @@ cd kotaramyapriya-ai-emergency-system
 # Build and start the containers
 docker-compose up --build
 
+
+Access the system:
 
 Backend: http://localhost:8000
 
@@ -87,22 +95,29 @@ Folder Structure
 docker-compose.yml
 README.md
 LICENSE
----
+assets/     — Screenshots or GIFs (demo.gif)
 
-### ✅ Summary of this README
-- Includes a Demo/GIF section at the top for visual appeal  
-- Clean, professional formatting throughout  
-- Contributing section appears before License  
-- License clearly stated at the end  
-- Proper code blocks, inline code, and folder structure  
+Model / Data
 
-Once your GIF is added in `assets/demo.gif`, this README will be fully polished and recruiter-ready.  
+The classification system currently uses keyword matching to detect the type of emergency.
 
-Optional: Add GitHub badges (e.g., build status, Python version, license) to make it even more professional.
+Future versions may integrate machine learning models for more accurate audio/text classification.
 
+No external datasets are required for the current implementation.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/kotaRamyapriya/kotaramyapriya-ai-emergency-system?style=social)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/kotaRamyapriya/kotaramyapriya-ai-emergency-system)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/issues)
-[![GitHub forks](https://img.shields.io/github/forks/kotaRamyapriya/kotaramyapriya-ai-emergency-system?style=social)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/network)
-[![GitHub watchers](https://img.shields.io/github/watchers/kotaRamyapriya/kotaramyapriya-ai-emergency-system?style=social)](https://github.com/kotaRamyapriya/kotaramyapriya-ai-emergency-system/watchers)
+Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+Guidelines:
+
+Fork the repository
+
+Make your changes in a feature branch
+
+Submit a PR with a clear description of your changes
+
+License
+
+This project is licensed under the MIT License.
+MIT © 2025 Kota Ramyapriya

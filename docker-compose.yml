@@ -1,16 +1,19 @@
-version: "3.9"
+version: '3'
 
 services:
-  backend:
-    build: ./backend
+  backend_python:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: backend_python
     ports:
       - "8000:8000"
-    volumes:
-      - ./backend:/app
 
   frontend:
     image: nginx:alpine
-    volumes:
-      - ./frontend:/usr/share/nginx/html
+    container_name: nginx_frontend
     ports:
-      - "8080:80"
+      - "80:80"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+

@@ -1,7 +1,7 @@
 async function analyzeText() {
     const text = document.getElementById("textInput").value;
 
-    const res = await fetch("http://localhost:8000/analyze-text?input_text=" + text, {
+    const res = await fetch("http://20.205.25.216:8000/analyze-text?input_text=" + text, {
         method: "POST"
     });
 
@@ -14,7 +14,7 @@ async function analyzeAudio() {
     const formData = new FormData();
     formData.append("file", file);
 
-    const res = await fetch("http://localhost:8000/analyze-audio", {
+    const res = await fetch("http://20.205.25.216:8000/analyze-audio", {
         method: "POST",
         body: formData
     });
@@ -22,3 +22,4 @@ async function analyzeAudio() {
     const data = await res.json();
     document.getElementById("result").innerText = JSON.stringify(data, null, 2);
 }
+

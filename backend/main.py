@@ -1,11 +1,21 @@
 from fastapi import FastAPI, UploadFile, File
 from ai_router import analyze_text, analyze_audio
 from incident_classifier import classify_incident
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
     title="AI Emergency Response System",
     description="Analyzes text & audio to detect emergency incidents",
     version="1.0.0"
+)
+
+# ✅ Enable CORS so frontend can access backend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # or your frontend URL
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 @app.get("/")
@@ -32,3 +42,4 @@ async def analyze_audio_endpoint(file: UploadFile = File(...)):
         "transcription": audio_text,
         "incident_type": incident_type
     }
+
